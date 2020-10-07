@@ -3,6 +3,9 @@
 #include "foo.h"
 #include "localVar.h"
 #include "globalVar.h"
+#include "internalLinkage.h"
+
+int doExternalLinkage();
 
 int main()
 {
@@ -28,6 +31,11 @@ int main()
 
 	doNextThing();
 	
+	doSomething();
+
+	int i = g_int;
+
+	doExternalLinkage();
 
 	return 0;
 }

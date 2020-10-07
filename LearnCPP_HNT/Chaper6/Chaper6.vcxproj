@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="boo.cpp" />
+    <ClCompile Include="ExternalLinkage.cpp" />
     <ClCompile Include="foo.cpp" />
     <ClCompile Include="globalVar.cpp" />
+    <ClCompile Include="internalLinkage.cpp" />
     <ClCompile Include="localVar.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -150,6 +152,7 @@
     <ClInclude Include="boo.h" />
     <ClInclude Include="foo.h" />
     <ClInclude Include="globalVar.h" />
+    <ClInclude Include="internalLinkage.h" />
     <ClInclude Include="localVar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
