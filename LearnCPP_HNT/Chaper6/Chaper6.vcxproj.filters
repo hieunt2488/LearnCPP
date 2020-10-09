@@ -39,6 +39,12 @@
     <ClCompile Include="ExternalLinkage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="staticLocalVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myTypedef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="foo.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="internalLinkage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staticLocalVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myTydef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
